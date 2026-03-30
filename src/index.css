@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* Aquí definimos tus colores premium */
+  --color-navy: #0A192F;
+  --color-navy-light: #112240;
+  --color-accent: #007BFF;
+
+  /* Definimos las fuentes para que coincidan con tus componentes */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* El import de las fuentes debe ir después o antes de tailwind según la versión, 
+   pero probemos dejarlo aquí abajo */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+@keyframes whatsapp-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}

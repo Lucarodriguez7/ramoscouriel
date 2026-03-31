@@ -33,7 +33,7 @@ const Hero = () => {
             <div className="absolute inset-0 z-0 bg-black">
                 <div className="w-full h-full flex justify-center">
                     <img
-                        src="https://imgur.com/a9ED5Y5.jpg"
+                        src="https://imgur.com/YYktzqH.jpg"
                         alt="Buenos Aires Real Estate"
                         className="w-full h-full object-cover object-top animate-slow-zoom opacity-90"
                     />
